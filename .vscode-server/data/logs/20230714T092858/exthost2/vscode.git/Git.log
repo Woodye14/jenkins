@@ -1,0 +1,19 @@
+2023-07-14 09:29:14.710 [info] Log level: Info
+2023-07-14 09:29:14.710 [info] Validating found git in: "git"
+2023-07-14 09:29:14.710 [info] Using git "2.34.1" from "git"
+2023-07-14 09:29:14.710 [info] > git rev-parse --show-toplevel [96ms]
+2023-07-14 09:29:14.710 [info] > git rev-parse --git-dir --git-common-dir [30ms]
+2023-07-14 09:29:14.710 [info] Open repository: /home/ubuntu/dockerfileexercise
+2023-07-14 09:29:14.710 [info] > git rev-parse --show-toplevel [18ms]
+2023-07-14 09:29:14.710 [info] > git config --get commit.template [19ms]
+2023-07-14 09:29:14.710 [info] > git rev-parse --show-toplevel [26ms]
+2023-07-14 09:29:14.710 [info] > git rev-parse --show-toplevel [7ms]
+2023-07-14 09:29:14.714 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [59ms]
+2023-07-14 09:29:14.714 [info] > git status -z -uall [35ms]
+2023-07-14 09:29:14.755 [info] > git config --get commit.template [20ms]
+2023-07-14 09:29:15.103 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [336ms]
+2023-07-14 09:29:15.199 [info] > git status -z -uall [54ms]
+2023-07-14 09:29:15.372 [info] > git show --textconv :Task1/Dockerfile [20ms]
+2023-07-14 09:29:15.382 [info] > git ls-files --stage -- /home/ubuntu/dockerfileexercise/Task1/Dockerfile [10ms]
+2023-07-14 09:29:15.397 [info] > git cat-file -s 9ce4ff7ba81b53dde762bac6a94162ad2e641019 [3ms]
+2023-07-14 09:29:15.701 [info] > git check-ignore -v -z --stdin [8ms]

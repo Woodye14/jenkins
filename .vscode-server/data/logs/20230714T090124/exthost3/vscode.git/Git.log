@@ -1,0 +1,24 @@
+2023-07-14 09:14:37.060 [info] Log level: Info
+2023-07-14 09:14:37.060 [info] Validating found git in: "git"
+2023-07-14 09:14:37.060 [info] Using git "2.34.1" from "git"
+2023-07-14 09:14:37.060 [info] > git rev-parse --show-toplevel [41ms]
+2023-07-14 09:14:37.060 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2023-07-14 09:14:37.060 [info] Open repository: /home/ubuntu/dockerfileexercise
+2023-07-14 09:14:37.060 [info] > git rev-parse --show-toplevel [11ms]
+2023-07-14 09:14:37.060 [info] > git config --get commit.template [12ms]
+2023-07-14 09:14:37.060 [info] > git rev-parse --show-toplevel [11ms]
+2023-07-14 09:14:37.061 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2023-07-14 09:14:37.107 [info] > git status -z -uall [42ms]
+2023-07-14 09:14:37.132 [info] > git config --get commit.template [9ms]
+2023-07-14 09:14:37.137 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2023-07-14 09:14:37.148 [info] > git status -z -uall [8ms]
+2023-07-14 09:14:37.908 [info] > git check-ignore -v -z --stdin [3ms]
+2023-07-14 09:14:39.338 [info] > git check-ignore -v -z --stdin [3ms]
+2023-07-14 09:14:40.601 [info] > git show --textconv :Task1/Jenkinsfile [7ms]
+2023-07-14 09:14:40.604 [info] > git ls-files --stage -- /home/ubuntu/dockerfileexercise/Task1/Jenkinsfile [4ms]
+2023-07-14 09:14:41.965 [info] > git show --textconv :Task1/Dockerfile [6ms]
+2023-07-14 09:14:41.968 [info] > git ls-files --stage -- /home/ubuntu/dockerfileexercise/Task1/Dockerfile [4ms]
+2023-07-14 09:14:41.974 [info] > git cat-file -s 9ce4ff7ba81b53dde762bac6a94162ad2e641019 [2ms]
+2023-07-14 09:15:18.717 [info] > git config --get commit.template [6ms]
+2023-07-14 09:15:18.719 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2023-07-14 09:15:18.725 [info] > git status -z -uall [2ms]

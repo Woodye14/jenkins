@@ -1,0 +1,21 @@
+2023-07-14 09:14:08.946 [info] Log level: Info
+2023-07-14 09:14:08.946 [info] Validating found git in: "git"
+2023-07-14 09:14:08.946 [info] Using git "2.34.1" from "git"
+2023-07-14 09:14:08.946 [info] > git rev-parse --show-toplevel [10ms]
+2023-07-14 09:14:08.946 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-14 09:14:08.946 [info] > git rev-parse --show-toplevel [6ms]
+2023-07-14 09:14:08.946 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-14 09:14:08.948 [info] > git rev-parse --show-toplevel [2ms]
+2023-07-14 09:14:08.948 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-14 09:14:08.953 [info] > git rev-parse --show-toplevel [2ms]
+2023-07-14 09:14:08.953 [info] fatal: not a git repository (or any of the parent directories): .git
+2023-07-14 09:14:08.970 [info] > git rev-parse --show-toplevel [13ms]
+2023-07-14 09:14:08.977 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2023-07-14 09:14:08.992 [info] Open repository: /home/ubuntu/dockerfileexercise
+2023-07-14 09:14:09.014 [info] > git config --get commit.template [11ms]
+2023-07-14 09:14:09.057 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [38ms]
+2023-07-14 09:14:09.095 [info] > git status -z -uall [23ms]
+2023-07-14 09:14:09.156 [info] > git config --get commit.template [9ms]
+2023-07-14 09:14:09.161 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2023-07-14 09:14:09.183 [info] > git status -z -uall [11ms]
+2023-07-14 09:14:09.557 [info] > git check-ignore -v -z --stdin [3ms]

@@ -1,0 +1,35 @@
+2023-07-14 09:01:24.310 [info] 
+
+
+
+
+2023-07-14 09:01:24.348 [info] Extension host agent started.
+2023-07-14 09:01:24.522 [error] [127.0.0.1][bd347481][ManagementConnection] Unknown reconnection token (never seen).
+2023-07-14 09:01:27.912 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-07-14 09:01:27.913 [info] Cancelling previous shutdown timeout
+2023-07-14 09:01:28.120 [info] [127.0.0.1][cc11227e][ManagementConnection] New connection established.
+2023-07-14 09:01:28.199 [info] [127.0.0.1][1e38e37c][ExtensionHostConnection] New connection established.
+2023-07-14 09:01:28.459 [info] [127.0.0.1][1e38e37c][ExtensionHostConnection] <1362> Launched Extension Host Process.
+2023-07-14 09:06:27.913 [info] New EH opened, aborting shutdown
+2023-07-14 09:14:06.047 [info] [127.0.0.1][04035b80][ManagementConnection] New connection established.
+2023-07-14 09:14:06.127 [info] [127.0.0.1][d870ae17][ExtensionHostConnection] New connection established.
+2023-07-14 09:14:06.134 [info] [127.0.0.1][d870ae17][ExtensionHostConnection] <1941> Launched Extension Host Process.
+2023-07-14 09:14:08.942 [error] CodeExpectedError: Could not find pty on pty host
+    at g.O (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:7243)
+    at g.updateTitle (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:28:2685)
+    at g.Q.<computed> (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:27:22460)
+    at Object.call (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:17:4866)
+    at u.s (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:5150)
+    at u.q (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4661)
+    at i.value (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:15:4066)
+    at E.w (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:1902)
+    at E.fire (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:10:2119)
+    at process.G (/home/ubuntu/.vscode-server/bin/660393deaaa6d1996740ff4880f1bad43768c814/out/vs/platform/terminal/node/ptyHostMain.js:8:27085)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:939:14)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21)
+2023-07-14 09:14:10.494 [info] [127.0.0.1][04035b80][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-07-14 09:14:10.526 [info] [127.0.0.1][d870ae17][ExtensionHostConnection] <1941> Extension Host Process exited with code: 0, signal: null.
+2023-07-14 09:14:34.605 [info] [127.0.0.1][ba0add4a][ManagementConnection] New connection established.
+2023-07-14 09:14:34.672 [info] [127.0.0.1][4554bc50][ExtensionHostConnection] New connection established.
+2023-07-14 09:14:34.678 [info] [127.0.0.1][4554bc50][ExtensionHostConnection] <2231> Launched Extension Host Process.

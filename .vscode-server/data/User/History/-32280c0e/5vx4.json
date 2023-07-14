@@ -1,0 +1,17 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "remote.SSH.remotePlatform": {
+        "mod1-10/07-test1": "linux",
+        "mod1-10/07-test4": "linux",
+        "mod1-10/07-test5": "linux",
+        "mod1-10/07-frontend": "linux",
+        "mod1-10/07-backend": "linux",
+        "mod1-10/07-reverseproxy": "linux",
+        "mod1-11/07-docker": "linux",
+        "mod1-11/07-dockernginx": "linux",
+        "mod1-11/07-nginximage": "linux",
+        "mod1-11/07-dockerfile": "linux",
+        "mod1-11/07-dockercontainer": "linux",
+        "mod1-13/07-jenkins": "linux"
+    }
+}
